@@ -6,6 +6,9 @@ CRISPRdesigner.py is intended for the high-throughput design of DNA components f
 It checks for Cas9 targets, whose core recognition is removed by the intended edit. 
 If such a target does not exist, it looks for the target closest to the edit and introduces synonymous changes in the donor DNA to abolish cutting by Cas9 
 
+[CRISPRdesigner flowchart.pdf](https://github.com/Stefan-A-Hoffmann/High-throughput-CRISPR-design/files/7353333/CRISPRdesigner.flowchart.pdf)
+
+
 Required inputs are:
 
 x Flat files of the target genome in forward ("whole_genome.txt") and reverse direction ("whole_genome_rc.txt").
