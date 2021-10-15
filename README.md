@@ -15,6 +15,7 @@ x Flat files of the target genome in forward ("whole_genome.txt") and reverse di
   Supplied here are the respective genomic sequences derived from the R64 genome assembly of Saccharomyces cerevisiae S288C (https://www.ncbi.nlm.nih.gov/assembly/GCF_000146045.2/).
 
 x List of coding sequences of the target genes ("CDS sequences.txt") in the format:
+
   "Gene name 1"
   "CDS sequence gene 1"
   "Gene name 2"
@@ -22,6 +23,7 @@ x List of coding sequences of the target genes ("CDS sequences.txt") in the form
   ...
   
 x List of intended edits ("edits.txt") in the format:
+
   "Gene name" \tab "nucleotide position of edited codon (first base of codon)" \tab "Codon changed for"
   ...
   
@@ -29,6 +31,7 @@ x List of targets for each targeted gene ("targets_GeneName.txt") retrieved from
   A script to automatically retrieve these for all to-be.edited genes is supplied here ("CRISPRdirectPOST.py") and takes ("edits.txt") as input.
   
 The scipt produces "output_file.txt" in the format:
+
 "line number" \tab "Gene name" \tab "nucleotide position of edited codon (first base of codon)" \tab "Codon changed for" \tab "forward guide oligo sequence" \tab "reverse guide oligo sequence" \tab "donor sequence" \tab "forward oligo sequence donor PCR" \tab "reverse oligo sequence donor PCR"
 ...
 
