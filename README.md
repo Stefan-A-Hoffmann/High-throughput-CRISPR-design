@@ -26,7 +26,7 @@ x List of intended edits ("edits.txt") in the format:
   ...
   
 x List of targets for each targeted gene ("targets_GeneName.txt") retrieved from CRISPRdirect (http://crispr.dbcls.jp/).
-  A script to automatically retrieve these for all to-be.edited genes is supplied here ("CRISPRdirectPOST.py") and takes ("edits.txt") as input.
+  A script to automatically retrieve these for all to-be-edited genes is supplied here ("CRISPRdirectPOST.py"), taking "edits.txt" as input.
   
 The scipt produces "output_file.txt" in the format:
 
