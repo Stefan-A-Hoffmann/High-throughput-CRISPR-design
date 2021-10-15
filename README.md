@@ -17,14 +17,12 @@ x Flat files of the target genome in forward ("whole_genome.txt") and reverse di
 x List of coding sequences of the target genes ("CDS sequences.txt") in the format:
 
   "Gene name 1"
-  "CDS sequence gene 1"
-  "Gene name 2"
-  "CDS sequence gene 2"
+  "CDS sequence gene 1" \newline
   ...
   
 x List of intended edits ("edits.txt") in the format:
 
-  "Gene name" \tab "nucleotide position of edited codon (first base of codon)" \tab "Codon changed for"
+  "Gene name" \tab "nucleotide position of edited codon (first base of codon)" \tab "Codon changed for" \newline
   ...
   
 x List of targets for each targeted gene ("targets_GeneName.txt") retrieved from CRISPRdirect (http://crispr.dbcls.jp/).
@@ -32,7 +30,7 @@ x List of targets for each targeted gene ("targets_GeneName.txt") retrieved from
   
 The scipt produces "output_file.txt" in the format:
 
-"line number" \tab "Gene name" \tab "nucleotide position of edited codon (first base of codon)" \tab "Codon changed for" \tab "forward guide oligo sequence" \tab "reverse guide oligo sequence" \tab "donor sequence" \tab "forward oligo sequence donor PCR" \tab "reverse oligo sequence donor PCR"
+"line number" \tab "Gene name" \tab "nucleotide position of edited codon (first base of codon)" \tab "Codon changed for" \tab "forward guide oligo sequence" \tab "reverse guide oligo sequence" \tab "donor sequence" \tab "forward oligo sequence donor PCR" \tab "reverse oligo sequence donor PCR" \newline
 ...
 
 The guide oligos have bases added for Golden Gate cloning into pWS082	sgRNA entry vector from the Ellis Lab Yeast CRISPR toolkit.
