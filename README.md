@@ -9,7 +9,7 @@ If such a target does not exist, it looks for the target closest to the edit and
 Required inputs are:
 
 x Flat files of the target genome in forward ("whole_genome.txt") and reverse direction ("whole_genome_rc.txt").
-  Supplied here is the Saccharomyces cerevisiae genome data.
+  Supplied here are the respective genomic sequences derived from the R64 genome assembly of Saccharomyces cerevisiae S288C (https://www.ncbi.nlm.nih.gov/assembly/GCF_000146045.2/).
 
 x List of coding sequences of the target genes ("CDS sequences.txt") in the format:
   "Gene name 1"
