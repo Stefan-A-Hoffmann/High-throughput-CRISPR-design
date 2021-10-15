@@ -7,6 +7,7 @@ It checks for Cas9 targets, whose core recognition is removed by the intended ed
 If such a target does not exist, it looks for the target closest to the edit and introduces synonymous changes in the donor DNA to abolish cutting by Cas9 
 
 [CRISPRdesigner flowchart.pdf](https://github.com/Stefan-A-Hoffmann/High-throughput-CRISPR-design/files/7353333/CRISPRdesigner.flowchart.pdf)
+![CRISPRdesigner flowchart](https://user-images.githubusercontent.com/92052871/137486195-fe4875d2-1408-4c4e-a0d9-fd4e42248b8c.jpg)
 
 
 Required inputs are:
