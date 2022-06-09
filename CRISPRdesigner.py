@@ -257,7 +257,7 @@ with open('edits.txt') as h_edits:
         elif chosen_target[2] == '-':
             target_noPAM = reverse_complement(chosen_target[3])[0:-3]
         print("Target without PAM: "+target_noPAM)
-        forward_guide_oligo = "gactt"+target_noPAM
+        forward_guide_oligo = "gacttt"+target_noPAM
         reverse_guide_oligo = "aaac"+reverse_complement(target_noPAM)+"aa"
 
         print("Forward guide oligo: "+forward_guide_oligo)
