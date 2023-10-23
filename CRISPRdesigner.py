@@ -53,7 +53,7 @@ with open('edits.txt') as h_edits:
         for sequences_line in h_sequences:
             h_sequences_index = h_sequences_index+1
             #introduce desired edit into each sequence
-            if edit_line[0] in sequences_line:
+            if edit_line[0] == sequences_line:
                 ori_sequence = (h_sequences[h_sequences_index])
                 codon_replaced_sequence = ori_sequence[:int(edit_line[1])-1]+edit_line[2].lower()+ori_sequence[int(edit_line[1])+2:]
 
