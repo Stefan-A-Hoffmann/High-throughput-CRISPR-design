@@ -12,7 +12,7 @@ with open('edits.txt') as h_edits:
         h_sequences_index=int(0)
         for h_sequences_line in h_sequences:
             h_sequences_index = h_sequences_index+1
-            if edit_pair[0] in h_sequences_line:
+            if edit_pair[0] == h_sequences_line:
                 seq = (h_sequences[h_sequences_index])
 
                 targetname = "targets_"+edit_pair[0]
